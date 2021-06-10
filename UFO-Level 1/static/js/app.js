@@ -1,5 +1,4 @@
 // from data.js
-// from data.js
 var tableData = data;
 console.log(tableData);
 
@@ -51,8 +50,7 @@ button.on("click", function() {
         // Append a cell to the row for each value
         var cell = row.append("td");
         cell.text(value);
+        
     });
 });
 });
-
-// YOUR CODE HERE!
